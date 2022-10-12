@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'MRDOOM',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -25,15 +25,9 @@ const CONFIG = {
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
-	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	
 
 	// Autochange
 	autoChangeTheme: true,
@@ -51,42 +45,32 @@ const CONFIG = {
 	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
 
 	firstButtonsContainer: [
+		
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
-		},
-		{
-			id: '2',
 			name: 'Mail',
 			icon: 'mail',
 			link: 'https://mail.protonmail.com/',
 		},
 		{
-			id: '3',
+			id: '2',
 			name: 'Todoist',
 			icon: 'trello',
 			link: 'https://todoist.com',
 		},
 		{
-			id: '4',
+			id: '3',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
-			id: '5',
+			id: '4',
 			name: 'Reddit',
 			icon: 'glasses',
 			link: 'https://reddit.com',
 		},
-		{
-			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
-		},
+		
 	],
 
 	secondButtonsContainer: [
@@ -96,36 +80,7 @@ const CONFIG = {
 			icon: 'headphones',
 			link: 'https://open.spotify.com',
 		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
+		
 	],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
